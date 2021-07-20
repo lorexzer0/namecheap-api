@@ -1,0 +1,36 @@
+{
+  "name": "namecheap-api",
+  "version": "1.0.0",
+  "description": "API parser for namecheap.com",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorexzer0/namecheap-api.git"
+  },
+  "keywords": [
+    "Namecheap",
+    "API",
+    "REST"
+  ],
+  "author": "Lorex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorexzer0/namecheap-api/issues"
+  },
+  "homepage": "https://github.com/lorexzer0/namecheap-api#readme",
+  "devDependencies": {
+    "@types/he": "^1.1.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fast-xml-parser": "^3.19.0",
+    "he": "^1.2.0"
+  }
+}
