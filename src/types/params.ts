@@ -1,15 +1,9 @@
 export type Domain_GetListParams = {
-  ListType?: "ALL" | "EXPIRING" | "EXPIRED";
+  ListType?: 'ALL' | 'EXPIRING' | 'EXPIRED';
   SearchTerm?: string;
   Page?: number;
   PageSize?: number;
-  SortBy?:
-    | "NAME"
-    | "NAME_DESC"
-    | "EXPIREDATE"
-    | "EXPIREDATE_DESC"
-    | "CREATEDATE"
-    | "CREATEDATE_DESC";
+  SortBy?: 'NAME' | 'NAME_DESC' | 'EXPIREDATE' | 'EXPIREDATE_DESC' | 'CREATEDATE' | 'CREATEDATE_DESC';
 };
 
 export type Domain_GetContactsParams = {

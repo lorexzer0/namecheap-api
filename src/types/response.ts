@@ -1,7 +1,7 @@
 // Typed / Globals
 export type ApiResponse<Type> = {
   __requested_url__: string;
-  Status: "OK" | "ERROR";
+  Status: 'OK' | 'ERROR';
   xmlns: string;
   Errors: string;
   Warnings: string;
